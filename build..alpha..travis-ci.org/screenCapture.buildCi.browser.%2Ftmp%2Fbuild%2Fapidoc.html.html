@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.figures.figures">
+            function <span class="apidocSignatureSpan"></span>figures
+            <span class="apidocSignatureSpan">(figures === main)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">figures.</span>arrowDown</span>
 
         </li>
@@ -396,6 +405,33 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.figures" id="apidoc.module.figures">module figures</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.figures.figures" id="apidoc.element.figures.figures">
+        function <span class="apidocSignatureSpan"></span>figures
+        <span class="apidocSignatureSpan">(figures === main)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">str =&gt; {
+	if (figures === main) {
+		return str;
+	}
+
+	Object.keys(main).forEach(key =&gt; {
+		if (main[key] === figures[key]) {
+			return;
+		}
+
+		str = str.replace(new RegExp(escapeStringRegexp(main[key]), 'g'), figures[key]);
+	});
+
+	return str;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
 
