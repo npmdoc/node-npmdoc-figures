@@ -1,6 +1,6 @@
 # npmdoc-figures
 
-#### api documentation for  [figures (v2.0.0)](https://github.com/sindresorhus/figures#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-figures.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-figures) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-figures.svg)](https://travis-ci.org/npmdoc/node-npmdoc-figures)
+#### basic api documentation for  [figures (v2.0.0)](https://github.com/sindresorhus/figures#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-figures.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-figures) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-figures.svg)](https://travis-ci.org/npmdoc/node-npmdoc-figures)
 
 #### Unicode symbols with Windows CMD fallbacks
 
@@ -83,7 +83,8 @@
     "version": "2.0.0",
     "xo": {
         "esnext": true
-    }
+    },
+    "bin": {}
 }
 ```
 
